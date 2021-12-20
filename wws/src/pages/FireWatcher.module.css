@@ -1,0 +1,9 @@
+.gmaps{
+    width:800;
+    height: 800;
+}
+
+.center{
+    lat: 43.293684;
+    lng: 5.863452;
+}
