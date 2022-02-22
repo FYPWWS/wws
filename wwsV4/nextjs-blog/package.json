@@ -2,11 +2,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3001",
-    "build": "next build -p 3001",
+    "build": "next build",
     "start": "next start -p 3001"
   },
   "dependencies": {
-    "@nextui-org/react": "^1.0.2-beta.3",
     "node": "latest",
     "next": "latest",
     "react": "17.0.2",
