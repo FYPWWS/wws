@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildfire Warning System - Database Client side</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <label for="userId">User ID</label><br>
+            <input type="text" name="userId" id="userId"><br>
+            <label for="fisrtName">First Name</label><br>
+            <input type="text" name="fisrtName" id="fisrtName"><br>
+            <label for="lastName">Last Name</label><br>
+            <input type="text" name="lastName" id="lastName"><br>
+            <label for="age">Age</label><br>
+            <input type="text" name="age" id="age"><br>
+            <button id="addBtn" class="btn wave-effect wave-light">Add</button>
+            <button id="updateBtn" class="btn wave-effect wave-light">Update</button>
+            <button id="removeBtn" class="btn wave-effect red darken-1"></button>
+        </form>
+    </main>
+    <script src="/function.js"></script>
+</body>
+</html>
