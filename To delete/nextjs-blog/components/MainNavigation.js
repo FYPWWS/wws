@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 
 export default function MainNavigation(props){
-
+    
     const [isOpen,setIsOpen] = useState(false);
     const openMenu= ()=> setIsOpen(!isOpen);
     return <> 
