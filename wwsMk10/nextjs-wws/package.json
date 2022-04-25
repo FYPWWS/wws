@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001"
+  },
+  "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.26",
+    "@nextui-org/react": "^1.0.8-beta.5",
+    "google-map-react": "latest",
+    "mongodb": "lastest",
+    "next": "latest",
+    "next-themes": "^0.1.1",
+    "node": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1"
+  }
+}
