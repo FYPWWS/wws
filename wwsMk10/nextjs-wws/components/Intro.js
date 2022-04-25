@@ -59,7 +59,7 @@ export default function Home() {
       <p className={classes.title}>Introduction</p>
       <p className={classes.p}>
         Welcome on the web page to present my final year project. I am Simon and
-        this will demonstrate the web part of my project.
+        this will demonstrate the Frontend of my project.
       </p>
       <p className={classes.p}>
         Wildfire Warning System (WWS) is a network of towers that detect
