@@ -76,7 +76,7 @@ export default function Home() {
             key={index}
             >
               {index === current && (
-                <img src={slide.image} alt='Intro slide' className={classes.image}/>,
+                <img src={slide.image} alt='Intro slide' className={classes.image}/>
                 //<text src={slide.header} alt='comment' className={classes.p}/>
               )}
               
